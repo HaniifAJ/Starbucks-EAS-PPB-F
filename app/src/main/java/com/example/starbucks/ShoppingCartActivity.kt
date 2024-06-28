@@ -50,7 +50,7 @@ fun ShoppingCartScreen(onClickHome: () -> Unit, onClickCheckout: () -> Unit) {
             .fillMaxSize()
             .padding(16.dp)
     ) {
-        Text(text = "2 items in cart", style = MaterialTheme.typography.headlineMedium)
+        Text(text = "1 items in cart", style = MaterialTheme.typography.headlineMedium)
         Spacer(modifier = Modifier.height(16.dp))
         CartItem(name = "Creamy Latte", price = "Rp. 40.000")
         Spacer(modifier = Modifier.height(8.dp))

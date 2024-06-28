@@ -26,7 +26,7 @@ class MainActivity : ComponentActivity() {
             StarbucksTheme {
                 Surface(color = MaterialTheme.colorScheme.background) {
                     SignInScreen(
-                        onSignInClicked = { /* TODO: Handle Sign In */ },
+                        onSignInClicked = {},
                         onCreateAccountClicked = { navigateToCreateAccount() }
                     )
                 }
